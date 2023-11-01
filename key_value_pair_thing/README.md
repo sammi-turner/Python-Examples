@@ -26,9 +26,9 @@ sqlite3 --version
 
 Don't forget to [sanitise](https://happycoding.io/tutorials/java-server/sanitizing-user-input) those input strings!
 
-## To run the script on Mac
-
 <br>
+
+## To run the script on Mac
 
 ```
 python3 main.py
