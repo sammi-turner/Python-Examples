@@ -24,6 +24,8 @@ then run
 pur -r requirements.txt
 ```
 
+<br>
+
 ## To install dependencies
 
 run
