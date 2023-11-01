@@ -28,6 +28,8 @@ Don't forget to [sanitise](https://happycoding.io/tutorials/java-server/sanitizi
 
 ## To run the script on Mac
 
+<br>
+
 ```
 python3 main.py
 ```
