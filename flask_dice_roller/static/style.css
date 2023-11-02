@@ -1,0 +1,42 @@
+* {
+  background-color: #282a36;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: monospace;
+  text-align: center;
+  background-color: #282a36;
+}
+
+main {
+  object-fit: contain;
+  color: #ddd;
+  background-color: #282a36;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+img {
+  border-radius: 5%;
+  object-fit: contain;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  max-width: 40%;
+  max-height: 40%;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ddd;
+}

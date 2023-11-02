@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flask Dice Roller</title>
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+  <script>
+    const routeBuilder = () => {
+      let url = "/roll" +
+      document.getElementById("diceNumber").value +
+      document.getElementById("diceType").value;
+      location.href = url;
+      return false;
+    }
+  </script>
+  <main>
+      <h1>POLYHEDRAL DICE ROLLER</h1>
+      <form onSubmit="return routeBuilder();">
+        <h3>How many dice to roll?</h3>
+        <input type="number" id="diceNumber" min="1" max="100" value="1">
+        <br />
+        <h3>What type of dice?</h3>
+        <select id="diceType" value="d4">
+          <option value="d4">d4</option>
+          <option value="d6">d6</option>
+          <option value="d8">d8</option>
+          <option value="d10">d10</option>
+          <option value="d12">d12</option>
+          <option value="d20">d20</option>
+          <option value="d100">d100</option>
+        </select> 
+        <input type="submit" value="roll">
+      </form>
+      <img src="static/dice.png" alt="dice" />
+    </main>
+  </body>
+</html>
