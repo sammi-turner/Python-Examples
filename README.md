@@ -28,8 +28,6 @@ I always test the code that they generate!
 
 However, given that Python3 is a mature language that is fairly popular in academia and industry, there is a suprising amount of training data for them to work with.
 
-Once you have generated the code that you want in Python3, manually making the changes required to turn it into valid Mojo code is not so hard.
-
 <br>
 
 ## Learning Python3 with LLMs
